@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3FDAA02A02EB2100F99EBA /* Monkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FDA9E2A02EB2100F99EBA /* Monkey.mp3 */; };
+		3F3FDAA12A02EB2100F99EBA /* Penguin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FDA9F2A02EB2100F99EBA /* Penguin.mp3 */; };
+		3F3FDAA32A02EB4100F99EBA /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FDAA22A02EB4100F99EBA /* Wolf.mp3 */; };
+		3F3FDAA52A02EB5000F99EBA /* Snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FDAA42A02EB5000F99EBA /* Snake.mp3 */; };
+		3F3FDAA72A02EB5B00F99EBA /* Lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F3FDAA62A02EB5B00F99EBA /* Lion.mp3 */; };
 		3FCD41242A019AD1005D172A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD41232A019AD1005D172A /* AppDelegate.swift */; };
 		3FCD41262A019AD1005D172A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD41252A019AD1005D172A /* SceneDelegate.swift */; };
 		3FCD41282A019AD1005D172A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD41272A019AD1005D172A /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3FDA9E2A02EB2100F99EBA /* Monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Monkey.mp3; path = animalAssets/Monkey.mp3; sourceTree = SOURCE_ROOT; };
+		3F3FDA9F2A02EB2100F99EBA /* Penguin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Penguin.mp3; path = animalAssets/Penguin.mp3; sourceTree = SOURCE_ROOT; };
+		3F3FDAA22A02EB4100F99EBA /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wolf.mp3; path = animalAssets/Wolf.mp3; sourceTree = SOURCE_ROOT; };
+		3F3FDAA42A02EB5000F99EBA /* Snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Snake.mp3; path = animalAssets/Snake.mp3; sourceTree = SOURCE_ROOT; };
+		3F3FDAA62A02EB5B00F99EBA /* Lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lion.mp3; path = animalAssets/Lion.mp3; sourceTree = SOURCE_ROOT; };
 		3FCD41202A019AD1005D172A /* animalTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animalTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCD41232A019AD1005D172A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCD41252A019AD1005D172A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3FDA9D2A02EB0F00F99EBA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F3FDAA62A02EB5B00F99EBA /* Lion.mp3 */,
+				3F3FDAA42A02EB5000F99EBA /* Snake.mp3 */,
+				3F3FDAA22A02EB4100F99EBA /* Wolf.mp3 */,
+				3F3FDA9E2A02EB2100F99EBA /* Monkey.mp3 */,
+				3F3FDA9F2A02EB2100F99EBA /* Penguin.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		3FCD41172A019AD0005D172A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +78,7 @@
 		3FCD41222A019AD1005D172A /* animalTalks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3FDA9D2A02EB0F00F99EBA /* Sounds */,
 				3FCD41232A019AD1005D172A /* AppDelegate.swift */,
 				3FCD41252A019AD1005D172A /* SceneDelegate.swift */,
 				3FCD41272A019AD1005D172A /* ViewController.swift */,
@@ -125,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3FDAA72A02EB5B00F99EBA /* Lion.mp3 in Resources */,
+				3F3FDAA32A02EB4100F99EBA /* Wolf.mp3 in Resources */,
 				3FCD41302A019AD2005D172A /* LaunchScreen.storyboard in Resources */,
 				3FCD412D2A019AD2005D172A /* Assets.xcassets in Resources */,
 				3FCD412B2A019AD1005D172A /* Main.storyboard in Resources */,
+				3F3FDAA12A02EB2100F99EBA /* Penguin.mp3 in Resources */,
+				3F3FDAA02A02EB2100F99EBA /* Monkey.mp3 in Resources */,
+				3F3FDAA52A02EB5000F99EBA /* Snake.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
