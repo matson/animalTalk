@@ -33,6 +33,9 @@
                                                     <color key="baseForegroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="lionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0wS-BJ-CFY"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lion" translatesAutoresizingMaskIntoConstraints="NO" id="MeA-GZ-oxN">
                                                 <rect key="frame" x="8" y="22" width="93" height="90"/>
@@ -60,6 +63,9 @@
                                                     <color key="baseForegroundColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" red="0.93934530019760132" green="0.71137889654865483" blue="0.81765105873903421" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="monkeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RmU-s3-joW"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monkey (1)" translatesAutoresizingMaskIntoConstraints="NO" id="u54-qa-39E" userLabel="monkey ">
                                                 <rect key="frame" x="8" y="20" width="91" height="93"/>
@@ -91,6 +97,9 @@
                                                     <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
                                                     <color key="baseBackgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="penguinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4lq-Wf-Q6p"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,6 +124,9 @@
                                                     <color key="baseForegroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="snakeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YzD-2y-6Nz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,6 +151,9 @@
                                                     <color key="baseForegroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" red="0.79995105248146769" green="0.74482551535386887" blue="0.97254925966262817" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="wolfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bSL-WW-Z2E"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
